@@ -13,7 +13,7 @@
 //         color: (
 //             primary: $light-primary,
 //             accent: $light-accent,
-//             foreground: func.mat-theme-foreground(map-get(palette.$junkie-green, 600)),
+//             foreground: func.mat-theme-foreground(map-get(palette.$kimly-green, 600)),
 //         ),
 //     )
 // );
@@ -22,10 +22,10 @@
 //     $light-primary,
 //     $light-accent,
 //     $light-warn,
-//     func.mat-theme-foreground(map-get(palette.$junkie-green, 600))
+//     func.mat-theme-foreground(map-get(palette.$kimly-green, 600))
 // );
 
-// .junkie-theme {
+// .kimly-theme {
 //     @include mat.button-theme($light-theme);
 // }
 
