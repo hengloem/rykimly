@@ -13,7 +13,7 @@ export class UiUtilsColor {
             var r = parseInt(result[1], 16);
             var g = parseInt(result[2], 16);
             var b = parseInt(result[3], 16);
-            return r + "," + g + "," + b;//return 23,14,45 -> reformat if needed 
+            return r + "," + g + "," + b; //return 23,14,45 -> reformat if needed 
         }
         return null;
     }

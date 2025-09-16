@@ -6,10 +6,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContainerModule } from './ui/container/container.module';
 import { SharedModule } from './ui/@shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NavigationComponent } from './ui/common/navigation/navigation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

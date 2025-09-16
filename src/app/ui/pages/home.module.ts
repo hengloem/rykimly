@@ -12,10 +12,26 @@ import { SharedModule } from '../@shared/shared.module';
 import { FooterModule } from '../common/footer/footer.module';
 import { ProgressModule } from '../common/progress/progress.module';
 import { SuccessModule } from '../common/success/success.module';
+import { AboutComponent } from './about/about.component';
+import { SkillComponent } from './skill/skill.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
+import { TrainingComponent } from './training/training.component';
+import { LanguageComponent } from './language/language.component';
+import { ReferenceComponent } from './reference/reference.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    SkillComponent,
+    ExperienceComponent,
+    EducationComponent,
+    TrainingComponent,
+    LanguageComponent,
+    ReferenceComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
