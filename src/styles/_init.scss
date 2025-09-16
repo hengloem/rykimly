@@ -1,12 +1,4 @@
-// @use "theme/variables" as *;
-
-$color_1: #333;
-$color_2: white;
-$color_3: rgba(235, 165, 10, 0.3);
-$color_4: #028a0f;
-$color_5: #666;
-$font-family_1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-$background-color_1: #fff;
+@import "./variable";
 
 /* Animated Background */
 @keyframes gradientShift {
@@ -171,8 +163,12 @@ body {
         animation: backgroundFloat 15s linear infinite;
     }
 }
+.main-container {
+    max-width: 566px !important;
+    margin: 0 auto;
+}
 .container {
-    max-width: 100%;
+    max-width: 566px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -272,7 +268,6 @@ body {
     }
 }
 .section {
-    padding: 60px 0;
     position: relative;
     transform: translateY(50px);
     opacity: 0;

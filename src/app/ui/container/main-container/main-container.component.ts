@@ -57,10 +57,8 @@ export class MainContainerComponent implements OnInit {
         .subscribe((event) => this._ngZone.run(() => {
           // console.log("suscribed event");
           this._scrollService.emitActionMainEvent(event);
-
         })));
   }
-
 
   // legacyKey: string
   _openNavigation() {
@@ -80,9 +78,7 @@ export class MainContainerComponent implements OnInit {
   }
 
   _onToolbarAnimationEnd($event: any) {
-
     // console.info("_onToolbarAnimationEnd: ", $event)
-
   }
 
 }
